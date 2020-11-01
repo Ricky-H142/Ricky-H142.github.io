@@ -37,6 +37,88 @@ html {
   float: right;
 }
 
+#linkedinlogo {
+  content: url("bright linkedin logo.png");
+  height: 35px;
+  width: 35px;
+  margin-top: -6px;
+  margin-bottom: -3px;
+  display: block;
+}
+
+#linkedinlogo:hover {
+  content: url("dark linkedin logo.png");
+  height: 35px;
+  width: 35px;
+  display: block;
+}
+
+#githublogo {
+  content: url("bright github logo.png");
+  height: 30px;
+  width: 30px;
+  margin-top: -4px;
+  margin-bottom: -3px;
+  display: block;
+}
+
+#githublogo:hover {
+  content: url("dark github logo.png");
+  height: 30px;
+  width: 30px;
+  margin-top: -4px;
+  margin-bottom: -3px;
+  display: block;
+}
+
+/* Drop Down */
+
+.projecttab {
+  float: left;
+}
+
+.projecttab .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.projecttab:hover .dropbtn {
+  background-color: #ddd;
+}
+
+.projectlist {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 54px;
+}
+
+.projectlist a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.projectlist a:hover {
+  background-color: #ddd;
+}
+
+.projecttab:hover .projectlist {
+  display: block;
+}
+
 /* Body */
 
 body {
@@ -46,7 +128,6 @@ body {
 
 h1 {
   padding-left: 16px;
-  margin-bottom: 1000px;
 }
 
 h2 {
@@ -63,6 +144,10 @@ h4 {
 p {
   padding-left: 16px;
   margin-bottom: 1000px;
+}
+
+#name {
+  font-size: 72px;
 }
 
 #aboutmebr {
@@ -108,16 +193,11 @@ p {
 
 /* Tag Location Shift */
 
-/* Might Remove
-#home {
-  padding-top: 60px;
-  margin-top: -60px;
-}
-*/
-
 #aboutme,
 #jobs,
 #projects,
+#midnightsun,
+#digitrecog,
 #resume,
 #contactme {
   padding-top: 6px;
