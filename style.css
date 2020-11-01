@@ -1,7 +1,7 @@
 html {
   overflow-y: scroll;
   scroll-behavior: smooth;
-  margin-top: 60px;
+  margin-top: -20px;
   background-color: #e8ffff;
 }
 
@@ -41,7 +41,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
 h1 {
@@ -51,6 +51,13 @@ h1 {
 
 h2 {
   padding-left: 16px;
+  margin-bottom: -16px;
+  font-size: 60px;
+}
+
+h3,
+h4 {
+  padding-left: 16px;
 }
 
 p {
@@ -58,16 +65,61 @@ p {
   margin-bottom: 1000px;
 }
 
+#aboutmebr {
+  margin-bottom: 1000px;
+}
+
+#jobsbr {
+  margin-bottom: 1000px;
+}
+
+#projectsbr {
+  margin-bottom: 1000px;
+}
+
+#midnightsuntitle {
+  font-size: 48px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+#digitrecogtitle {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 48px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+#digitrecoggif {
+  padding-left: 16px;
+  display: inline-block;
+}
+
+#digitrecogtext {
+  font-size: 28px;
+  display: inline-block;
+  vertical-align: top;
+  word-wrap: break;
+}
+
+#contactmebr {
+  margin-bottom: 1000px;
+}
+
 /* Tag Location Shift */
 
+/* Might Remove
 #home {
   padding-top: 60px;
   margin-top: -60px;
 }
+*/
 
 #aboutme,
+#jobs,
 #projects,
+#resume,
 #contactme {
-  padding-top: 40px;
-  margin-top: -40px;
+  padding-top: 6px;
+  margin-top: -36px;
 }

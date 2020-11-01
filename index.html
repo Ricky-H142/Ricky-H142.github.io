@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricky Huang</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!----JavaScript---->
     <script src=index.js></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>    
     
     <!----Top Bar---->
     <div class="topnav">
         <a href="#home" class="left-side">Home</a>
         <a href="#aboutme" class="left-side">About Me</a>
+        <a href="#jobs" class="left-side">Job Experiences</a>
         <a href="#projects" class="left-side">Projects</a>
+        <a href="#resume" class="left-side">Resume</a>
         <a href="#contactme" class="left-side">Contact Me</a>
-        <a href="https://www.dropbox.com/s/8gjnfwjmucxa0dh/Ricky%20Huang%20Resume%20V3.pdf?dl=0" target=_blank class="right-side">Resume</a>
+        <a href="https://www.dropbox.com/s/8gjnfwjmucxa0dh/Ricky%20Huang%20Resume%20V3.pdf?dl=0" target=_blank class="right-side">Resume</a> <!-- Might Remove -->
         <a href="https://www.linkedin.com/in/ricky-zi-an-huang/" target=_blank class="right-side">LinkedIn</a>
         <a href="https://www.github.com/Ricky-H142" target=_blank class="right-side">GitHub</a>
     </div>
@@ -28,18 +31,91 @@
     <div id="aboutme">
         <h2>About Me</h2>    
         <p>Hello, How are you?</p>
+        
+        <br id="aboutmebr">
+    </div>
+
+    <!----Job Experiences---->
+    <div id="jobs">
+        <h2>Job Experiences</h2>
+
+        <div align="center">
+            <div>
+                <img>
+                <h3>Electronics for Imaging - Co-op QA Tester</h3>
+                <h4>November - December 2020</h4>
+            </div> 
+
+            <div>
+                <img>
+                <h3>Sunlife Financial - On-site Support Technician Co-op</h3>
+                <h4>January - May 2020</h4>
+            </div>
+
+            <div>
+                <img>
+                <h3>City of Toronto - Camp Counsellor</h3>
+                <h4>July 2018 - August 2019</h4>
+            </div>
+        </div>
+
+        <br id="jobsbr">
     </div>
     
     <!----Projects---->
     <div id="projects">
-        <h2>Projects</h2>
-        <p>Hello, How are you?</p>
+        <h2 id="Projects Title">Projects</h2>
+
+        <div id="midnightsun">
+            <div align="center" id="midnightsuntitle">
+                <h3>Midnight Sun</h3>
+            </div>
+            <div id="bmscarrier">
+                <h3>BMS Carrier</h3>
+                <!-- Add Image of BMS Carrier -->
+                <h3>Connector Testing Board</h3>
+                <!-- Add Image of Connector Testing Board -->
+            </div>
+        </div>
+
+        <div id="digitrecog">
+            <div align="center" id="digitrecogtitle">
+                <a href="https://github.com/fofsfofs/Digit-Recog"><h3>Digit Recog</h3></a>
+            </div>
+            <div id="digitrecoggif">
+                <embed src="https://raw.githubusercontent.com/fofsfofs/Digit-Recog/master/demo.gif" width="1092px" height="592px">
+                <!--- GIF original size is 1365 x 740 --->
+                <p id="digitrecogtext">
+                    Digit Recog is a web application that uses Tensorflow.js <br>
+                    to predict a user-drawn digit to the best of it's ability. <br>
+                    The TensorFlow model was trained against 55000 data <br>
+                    entries from the MNIST database in order to increase <br>
+                    the probability of correctly predicting the user-drawn <br>
+                    image. <br>
+                    <br>
+                    This project was made in collaboration with <a href=https://github.com/fofsfofs>Farhan</a>,<br>
+                    <a href="https://github.com/sanjeev2001">Sanjeev</a>, and <a href="https://github.com/Ashxnth">Ashanth</a> for Hack the Valley 4.
+                </p>
+            </div>
+        </div>
+
+        <br id="projectsbr">
+    </div>
+
+    <!----Resume---->
+    <div id="resume">
+        <h2>Resume</h2>
+        <div align="center" id="resumepdf">
+            <embed src="Ricky Huang Resume V3.pdf#view=Fit" width="50%" height="850px" frameborder="0" scrolling="auto">
+        </div>
     </div>    
 
     <!----Contact Me---->
     <div id="contactme">
         <h2>Contact Me</h2>
         <p>Hello, How are you?</p>
+
+        <br id="contactmebr">
     </div>
 
 </body>
