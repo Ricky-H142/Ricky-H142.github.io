@@ -33,7 +33,7 @@
     </div>
 
     <!----Home---->
-    <h1 id="top">Ricky Huang</h1>
+    <h1 id="top">TOP</h1>
 
     <div align="center" id="home">
         <img> <!--Add Image of Yourself-->
@@ -88,8 +88,13 @@
             <div id="bmscarrier">
                 <h3>BMS Carrier</h3>
                 <!-- Add Image of BMS Carrier -->
+                <h4></h4>
+            </div>
+            <div id="bmscarrier">
                 <h3>Connector Testing Board</h3>
                 <!-- Add Image of Connector Testing Board -->
+                <h4>With this project, I made a PCB that test the materials for connectors such as Molex Microfit, Ultrafit and Duraclik connectors, to determine which material would be used for all Midnight Sun PCB. I also made a <a href="Midnight Sun Connector List Rev 1.0 - Empty.xlsm">Excel File</a> to determine the amount of connector needed for all the boards for the team. </h4>
+                
             </div>
         </div>
 
@@ -122,16 +127,37 @@
     <div id="resume">
         <h2>Resume</h2>
         <div align="center" id="resumepdf">
-            <embed src="Ricky Huang Resume V3.pdf#view=Fit" width="50%" height="850px" frameborder="0" scrolling="auto">
+            <embed src="Ricky Huang Resume V3 for Website.pdf#view=Fit" width="50%" height="850px" frameborder="0" scrolling="auto">
         </div>
     </div>    
 
     <!----Contact Me---->
     <div id="contactme">
         <h2>Contact Me</h2>
-        <p>Hello, How are you?</p>
+        <h3>For my phone number, please email me for it.</h3>
 
-        <br id="contactmebr">
+        <br>
+
+        <div class="contact-form">
+            <form id="contact-form" method="post" action="contactform.php">
+          
+              <label for="full name">Full Name</label>
+              <input type="text" id="fullname" name="name" placeholder="Your Name" required>
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email" required>
+          
+              <label for="subject">Message</label>
+              <textarea id="message" name="message" placeholder="Write Message Here :)" style="height:470px" required></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+
+          <br>
+          <br>
+
     </div>
 
 </body>
