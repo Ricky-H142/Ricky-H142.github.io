@@ -1,0 +1,19 @@
+<div class="contact-form">
+    <form id="contact-form" method="post" action="contactform.php">
+    
+        <label for="full name">Full Name</label>
+        <input type="text" id="fullname" name="name" placeholder="Your Name" required>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email" required>
+    
+        <label for="subject">Message</label>
+        <textarea id="message" name="message" placeholder="Write Message Here :)" style="height:470px" required></textarea>
+    
+        <input type="submit" value="Submit">
+    
+    </form>
+</div>
+
+<br>
+<br>

@@ -149,6 +149,20 @@ p {
   margin-bottom: 1000px;
 }
 
+#efilogo {
+  position: relative;
+  top: -150px;
+  margin-bottom: -350px;
+  z-index: -1;
+}
+
+#sunlifelogo {
+  position: relative;
+  top: -360px;
+  margin-bottom: -725px;
+  z-index: -1;
+}
+
 #projectsbr {
   margin-bottom: 1000px;
 }
@@ -182,44 +196,24 @@ p {
   line-height: 100px;
 }
 
-/* Contact Me Form */
-
-label {
-  margin-left: 48px;
+#emailicon {
+  content: url("circled email icon.png");
+  height: 525px;
+  width: 525px;
+  margin-top: -9px;
+  margin-bottom: -5px;
+  display: block;
 }
 
-input[type="text"],
-select,
-textarea {
-  width: 93%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  margin-left: 48px;
-  resize: vertical;
-}
-
-input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
-  padding: 12px 20px;
-  margin-left: 48px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+#emailicon:hover {
+  content: url("filled email icon.png");
+  height: 480px;
+  width: 480px;
+  margin-top: 33px;
+  margin-bottom: 36px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: block;
 }
 
 /* Tag Location Shift */
