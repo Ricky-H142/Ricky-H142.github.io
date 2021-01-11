@@ -145,22 +145,36 @@ p {
   margin-bottom: 1000px;
 }
 
+/*
 #jobsbr {
   margin-bottom: 1000px;
 }
+*/
 
 #efilogo {
   position: relative;
-  top: -150px;
-  margin-bottom: -350px;
+  width: 510px;
+  height: 390px;
+  top: -100px;
+  margin-bottom: -200px;
   z-index: -1;
+  /* Size Halved from 1020 x 780 */
 }
 
 #sunlifelogo {
   position: relative;
-  top: -360px;
-  margin-bottom: -725px;
+  width: 600px;
+  height: 600px;
+  top: -175px;
+  margin-bottom: -325px;
   z-index: -1;
+  /* Size Halved from 1200 x 1200 */
+}
+
+#torontologo {
+  width: 600px;
+  height: 193px;
+  /* Size Halved from 1200 x 385 */
 }
 
 #projectsbr {
@@ -171,6 +185,21 @@ p {
   font-size: 48px;
   margin-top: -20px;
   margin-bottom: -20px;
+}
+
+#bmscarrierpcb {
+  height: 560px;
+  width: 936px;
+  /* ~0.72 multiplier, originally 1285 x 795 */
+}
+
+#bmscarrierbackpcb {
+  height: 560px;
+  width: 936px;
+}
+
+#connectorboardpcb {
+  padding-left: 16px;
 }
 
 #digitrecogtitle {
@@ -221,10 +250,14 @@ p {
 #aboutme,
 #jobs,
 #projects,
-#midnightsun,
 #digitrecog,
 #resume,
 #contactme {
   padding-top: 6px;
   margin-top: -36px;
+}
+
+#midnightsun {
+  padding-top: 12px;
+  margin-top: -42px;
 }
