@@ -71,6 +71,25 @@ html {
   display: block;
 }
 
+#maillogo {
+  content: url("white circled email icon.png");
+  height: 33px;
+  width: 33px;
+  margin-top: -5px;
+  margin-bottom: -3px;
+  margin-right: -3px;
+  display: block;
+}
+
+#maillogo:hover {
+  content: url("filled email icon.png");
+  height: 30px;
+  width: 30px;
+  margin-top: -4px;
+  margin-bottom: -3px;
+  display: block;
+}
+
 /* Drop Down */
 
 .projecttab {
@@ -141,16 +160,6 @@ p {
   font-size: 72px;
 }
 
-#aboutmebr {
-  margin-bottom: 1000px;
-}
-
-/*
-#jobsbr {
-  margin-bottom: 1000px;
-}
-*/
-
 #efilogo {
   position: relative;
   width: 510px;
@@ -198,8 +207,30 @@ p {
   width: 936px;
 }
 
+#bmscarriertext {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+  word-wrap: break;
+}
+
 #connectorboardpcb {
+  height: 600px;
+  width: 600px;
+}
+
+#connectorboardfile {
   padding-left: 16px;
+  height: 600px;
+  width: 1200px;
+  /* Originally 1920 x 1040 -> 1200 x 600 */
+}
+
+#connectorboardtext {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+  word-wrap: break;
 }
 
 #digitrecogtitle {
@@ -219,30 +250,6 @@ p {
   display: inline-block;
   vertical-align: top;
   word-wrap: break;
-}
-
-#contactmebr {
-  line-height: 100px;
-}
-
-#emailicon {
-  content: url("circled email icon.png");
-  height: 525px;
-  width: 525px;
-  margin-top: -9px;
-  margin-bottom: -5px;
-  display: block;
-}
-
-#emailicon:hover {
-  content: url("filled email icon.png");
-  height: 480px;
-  width: 480px;
-  margin-top: 33px;
-  margin-bottom: 36px;
-  margin-left: 25px;
-  margin-right: 25px;
-  display: block;
 }
 
 /* Tag Location Shift */

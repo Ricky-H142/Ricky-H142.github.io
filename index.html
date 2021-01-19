@@ -26,10 +26,10 @@
         </div>
 
         <a href="#resume" class="left-side">Resume</a>
-        <a href="#contactme" class="left-side">Contact Me</a>
 
         <a href="https://www.linkedin.com/in/ricky-zi-an-huang/" target=_blank class="right-side" id="linkedinlogo"></a>
         <a href="https://www.github.com/Ricky-H142" target=_blank class="right-side" id="githublogo"></a>
+        <a href="mailto:r83huang@uwaterloo.ca" class="right-side" id="maillogo"></a>
     </div>
 
     <!----Home---->
@@ -44,7 +44,22 @@
     <!----About Me---->
     <div id="aboutme">
         <h2>About Me</h2>    
-        <p>Hello, How are you?</p>
+        <h3>Hi, I’m Ricky Huang and welcome to my website. Currently I am an electrical engineering student studying at the University of Waterloo. Some fun facts about me are that</h3> 
+        <ul>
+            <li>I have a big interest in hardware components and helping out my design team Midnight Sun</li>
+            <li>I like trying out new gadgets such as computers and smartphones</li>
+            <li>I speak english and cantonese fluently as well as a little bit of mandarin</li>
+            <li>I played the trumpet and the piano during high school</li>
+            <ul>
+                <li>I led the trumpet section in my highschool band, jazz band and orchestra ensemble</li>
+            </ul>
+            <li>I listen to almost every type of genre of music (I have over 15 spotify playlist, each with a different genre)</li>
+            <ul>
+                <li>Some of my favourite artist are Dreamville, Falcons and The Weeknd</li>
+            </ul>
+            <li>I am a Toronto Raptors fan and my favourite player on the roster is OG Anunoby</li>
+        </ul>
+        <h3>If you want to know more about me, press the email icon on the top left or email me at <a href="mailto:r83huang@uwaterloo.ca">r83huang@uwaterloo.ca</a>!</h3>
         
         <br id="aboutmebr">
     </div>
@@ -58,18 +73,33 @@
                 <img src="EFI.png" id="efilogo">
                 <h3>Electronics for Imaging - Co-op QA Tester</h3>
                 <h4>November - December 2020</h4>
+                <div align="left">
+                    <h4>
+                        During my tenure at EFI, my position was a Quality Assurance Tester, where I was assigned to test the new functionality and bug fixes that the developers put out. Though the work term was shorter than usual, I contributed a lot during that time as I was able to test over 100 test cases for a few different projects. One notable project was testing the changes for Fedex's photo stations when EFI converted their network from on-site (EPPhoto2) to AWS (SSAC). I also gained some hands-on experience with EFI’s hardware, specifically the M500 and M600 series kiosks. I was shown how the device was configured and how to service and retrofit different components on the device.
+                    </h4>
+                </div>
             </div> 
 
             <div>
                 <img src="Sun Life Financial.png" id="sunlifelogo">
                 <h3>Sunlife Financial - On-site Support Technician Co-op</h3>
                 <h4>January - May 2020</h4>
+                <div align="left">
+                    <h4>
+                        During my tenure at SunLife, my position was an on-site support (OSS) technician, where I would work with the SunLife Atria OSS team to deal with ticket requests for SunLife employees. Some of my work includes setting up devices for new employees, troubleshooting problems on employee devices, test new application updates/revisions and document the behavior, and deploy peripherals in the office or to the employee’s home. Halfway through the work term, the Atria office had closed for all non-essential workers due to COVID-19, and I chose to continue my work term to help out with the rest of the OSS team in the GTA by myself at the Atria office.
+                    </h4>
+                </div>
             </div>
 
             <div>
                 <img src="City of Toronto.png" id="torontologo">
                 <h3>City of Toronto - Camp Counsellor</h3>
                 <h4>July 2018 - August 2019</h4>
+                <div align="left">
+                    <h4>
+                        During my two years as a camp counsellor with the city of Toronto, I was a staff at the Ellesmere CC sports camp and Jack Goodlad counsellor in training camp. In my first year, I was assigned to Ellesmere sports camp where a group of 6 other staff and myself worked together to run a camp of 60 kids aged 6 to 12 by organizing games and events throughout the entire summer. The second summer, I was relocated to the counsellor-in-training camp, where I would teach a group of teenagers, aged 13 to 16, the rules and protocols followed by staff and grade their performance during their placement at a camp.
+                    </h4>
+                </div>
             </div>
         </div>
 
@@ -86,17 +116,29 @@
             </div>
 
             <div id="bmscarrier">
-                <h3>BMS Carrier</h3>
+                <h3>BMS Carrier Rev. 2.1</h3>
                 <div align="center">
                     <img src="BMS Carrier PCB sized.PNG" id="bmscarrierpcb">
                     <img src="BMS Carrier Back PCB.PNG" id="bmscarrierbackpcb">
                 </div>
-                <h4></h4>
+                <h4 id="bmscarriertext">
+                    With this project, I updated the BMS (Battery Management System) Carrier board for the team’s next vehicle MSXIV (Midnight Sun 14). For the board, the changes I did for the new revision were to:
+                    <ul>
+                        <li>Replace end of life fan controller IC with a newer model [ADT7470ARQZ -> ADT7476AARQZ-R]</li>
+                        <li>Change positioning of connectors with the position of the power relay for easier access</li>
+                        <li>Implement new design rule check for team standard</li>
+                    </ul>
+                </h4>
             </div>
             <div id="connectorboard">
                 <h3>Connector Testing Board</h3>
-                <img src="Connector Testing Board PCB.PNG" id="connectorboardpcb">
-                <h4></h4>
+                <div align="center">
+                    <img src="Connector Testing Board PCB.PNG" id="connectorboardpcb">
+                    <img src="Connector Testing Board Excel File.PNG" id="connectorboardfile">
+                </div>
+                <h4 id="connectorboardtext">
+                    With this project, I made a PCB that test the materials for connectors such as Molex Microfit, Ultrafit and Duraclik connectors, to determine which material would be used for all Midnight Sun PCB given how. I also made an <a href="Midnight Sun Connector List Rev 1.0 - Empty.xlsm">Excel File</a> to determine the amount of connector needed for all the boards for the team.
+                </h4>
             </div>
         </div>
 
@@ -108,7 +150,7 @@
             <div id="digitrecoggif">
                 <embed src="https://raw.githubusercontent.com/fofsfofs/Digit-Recog/master/demo.gif" width="1092px" height="592px">
                 <!--- GIF original size is 1365 x 740 --->
-                <p id="digitrecogtext">
+                <h4 id="digitrecogtext">
                     Digit Recog is a web application that uses Tensorflow.js <br>
                     to predict a user-drawn digit to the best of it's ability. <br>
                     The TensorFlow model was trained against 55000 data <br>
@@ -118,7 +160,7 @@
                     <br>
                     This project was made in collaboration with <a href=https://github.com/fofsfofs>Farhan</a>,<br>
                     <a href="https://github.com/sanjeev2001">Sanjeev</a>, and <a href="https://github.com/Ashxnth">Ashanth</a> for Hack the Valley 4.
-                </p>
+                </h4>
             </div>
         </div>
 
@@ -132,23 +174,6 @@
             <embed src="Ricky Huang Resume V3 for Website.pdf#view=Fit" width="50%" height="850px" frameborder="0" scrolling="auto">
         </div>
     </div>    
-
-    <!----Contact Me---->
-    <div id="contactme">
-        <h2>Contact Me</h2>
-        <h3>For my phone number, please email me for it.</h3>
-
-        <br><br><br>
-
-        <div align="center">
-            <h3>Press the button or email at r83huang@uwaterloo.ca</h3>
-            <a href="mailto:r83huang@uwaterloo.ca" target=_blank id="emailicon"></a>
-            <h3>Or press the (in) icon on the top right to message me on LinkedIn</h3>
-        </div>
-
-        <br><br><br><br>
-
-    </div>
 
 </body>
 </html>

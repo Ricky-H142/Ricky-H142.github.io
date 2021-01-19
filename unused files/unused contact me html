@@ -17,3 +17,20 @@
 
 <br>
 <br>
+
+<!----Contact Me---->
+    <div id="contactme">
+        <h2>Contact Me</h2>
+        <h3>For my phone number, please email me for it.</h3>
+
+        <br><br><br>
+
+        <div align="center">
+            <h3>Press the button or email at r83huang@uwaterloo.ca</h3>
+            <a href="mailto:r83huang@uwaterloo.ca" target=_blank id="emailicon"></a>
+            <h3>Or press the (in) icon on the top right to message me on LinkedIn</h3>
+        </div>
+
+        <br><br><br><br>
+
+    </div>

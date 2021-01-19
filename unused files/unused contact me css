@@ -37,3 +37,23 @@ input[type="submit"]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+#emailicon {
+  content: url("circled email icon.png");
+  height: 525px;
+  width: 525px;
+  margin-top: -9px;
+  margin-bottom: -5px;
+  display: block;
+}
+
+#emailicon:hover {
+  content: url("filled email icon.png");
+  height: 480px;
+  width: 480px;
+  margin-top: 33px;
+  margin-bottom: 36px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: block;
+}
