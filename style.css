@@ -161,12 +161,12 @@ p {
   margin-bottom: 1000px;
 }
 
+/*
 #me {
   padding-top: 30px;
   width: 504px;
   height: 672px;
   /* Original size 3024 x 4032 divded by 8 */
-}
 
 #name {
   font-size: 72px;
