@@ -146,14 +146,26 @@ h2 {
   font-size: 60px;
 }
 
-h3,
+h3 {
+  padding-left: 16px;
+  font-size: 30px;
+}
+
 h4 {
   padding-left: 16px;
+  font-size: 20px;
 }
 
 p {
   padding-left: 16px;
   margin-bottom: 1000px;
+}
+
+#me {
+  padding-top: 30px;
+  width: 504px;
+  height: 672px;
+  /* Original size 3024 x 4032 divded by 8 */
 }
 
 #name {
@@ -207,7 +219,9 @@ p {
   width: 936px;
 }
 
-#bmscarriertext {
+#bmscarriertext,
+#connectorboardtext,
+#digitrecogtext {
   font-size: 20px;
   display: inline-block;
   vertical-align: top;
@@ -226,30 +240,16 @@ p {
   /* Originally 1920 x 1040 -> 1200 x 600 */
 }
 
-#connectorboardtext {
-  font-size: 20px;
-  display: inline-block;
-  vertical-align: top;
-  word-wrap: break;
-}
-
 #digitrecogtitle {
   font-family: "Shadows Into Light", cursive;
   font-size: 48px;
   margin-top: -20px;
-  margin-bottom: -20px;
+  margin-bottom: 30px;
 }
 
 #digitrecoggif {
-  padding-left: 16px;
+  padding-left: 100px;
   display: inline-block;
-}
-
-#digitrecogtext {
-  font-size: 28px;
-  display: inline-block;
-  vertical-align: top;
-  word-wrap: break;
 }
 
 /* Tag Location Shift */
