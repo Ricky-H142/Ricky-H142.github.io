@@ -161,11 +161,17 @@ p {
   margin-bottom: 1000px;
 }
 
+#top {
+  margin-bottom: 75px;
+}
+
+/*
 #imageme {
   padding-top: 50px;
   width: 378px;
   height: 504px;
 }
+*/
 /* Original size 3024 x 4032 divded by 8 */
 
 #name {
